@@ -10,12 +10,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentsComponent } from './Componets/students/students.component';
 import { DashbordComponent } from './Componets/dashbord/dashbord.component';
+import { SignupComponent } from './Componets/signup/signup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentsComponent,
-    DashbordComponent
+    DashbordComponent,
+    SignupComponent,
+    
   ],
   imports: [
     BrowserModule,
