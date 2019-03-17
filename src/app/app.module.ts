@@ -14,6 +14,8 @@ import { SignupComponent } from './Componets/signup/signup.component';
 import { AdminComponent } from './Componets/admin/admin.component';
 import { CoachComponent } from './Componets/coach/coach.component';
 import { PoolmanagerComponent } from './Componets/poolmanager/poolmanager.component';
+import { StudentSignupComponent } from './Componets/student-signup/student-signup.component';
+import { SignupUsersTypeComponent } from './Componets/signup-users-type/signup-users-type.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { PoolmanagerComponent } from './Componets/poolmanager/poolmanager.compon
     AdminComponent,
     CoachComponent,
     PoolmanagerComponent,
+    StudentSignupComponent,
+    SignupUsersTypeComponent,
     
   ],
   imports: [
