@@ -18,6 +18,8 @@ import { StudentSignupComponent } from './Componets/student-signup/student-signu
 import { SignupUsersTypeComponent } from './Componets/signup-users-type/signup-users-type.component';
 import { SigninComponent } from './Componets/signin/signin.component';
 
+import { CalendarModule } from 'angular-calendar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,9 +37,13 @@ import { SigninComponent } from './Componets/signin/signin.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
