@@ -19,6 +19,7 @@ import { SignupUsersTypeComponent } from './Componets/signup-users-type/signup-u
 import { SigninComponent } from './Componets/signin/signin.component';
 
 import { CalendarModule } from 'angular-calendar';
+import { SkillComponent } from './Componets/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { CalendarModule } from 'angular-calendar';
     StudentSignupComponent,
     SignupUsersTypeComponent,
     SigninComponent,
+    SkillComponent,
     
   ],
   imports: [
