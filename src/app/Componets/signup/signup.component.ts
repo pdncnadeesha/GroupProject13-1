@@ -17,7 +17,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 export class SignupComponent implements OnInit {
 
   constructor() { }
-  emailFormControl = new FormControl('', [
+    emailFormControl = new FormControl('', [
     Validators.required,
     Validators.email,
   ]);
