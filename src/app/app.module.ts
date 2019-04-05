@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabase} from '@angular/fire/database';
@@ -19,6 +20,10 @@ import { SignupUsersTypeComponent } from './Componets/signup-users-type/signup-u
 import { SigninComponent } from './Componets/signin/signin.component';
 
 import { CalendarModule } from 'angular-calendar';
+import { SkillComponent } from './Componets/skill/skill.component';
+import { from } from 'rxjs';
+import { StudentsignupService } from './services/studentsignup.service';
+import { UsersnotvalidComponent } from './usersnotvalid/usersnotvalid.component';
 
 @NgModule({
   declarations: [
@@ -32,17 +37,20 @@ import { CalendarModule } from 'angular-calendar';
     StudentSignupComponent,
     SignupUsersTypeComponent,
     SigninComponent,
+    SkillComponent,
+    UsersnotvalidComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     
     
 
   ],
-  providers: [],
+  providers: [StudentsignupService],
   bootstrap: [AppComponent]
 })
 

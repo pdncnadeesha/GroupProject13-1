@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { StudentsignupService } from '../../services/studentsignup.service';
 
 @Component({
   selector: 'app-student-signup',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentSignupComponent implements OnInit {
 
-  constructor() { }
+  constructor(private StudentsignupService: StudentsignupService ) { }
 
   ngOnInit() {
+  }
+
+  onSubmit(){
+    // if(this.StudentsignupService.form.get('key').value==null){
+
+    // }
   }
 
 }

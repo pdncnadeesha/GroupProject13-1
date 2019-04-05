@@ -1,68 +1,78 @@
-<form>
-  <div>
-    <h1>SIGNUP</h1>
-  </div>
+<!-- <form [FormGroup]="this.StudentsignupService.form" (ngsubmit)["onSubmit()"]>
+     <input type="hidden" formControlName="$key"> -->
 
-  <!-- form Div -->
-  <div class="form-group">
-    <label>Index Number</label>
-    <input type="text" class="form-control" id="indexNumber" placeholder="Enter Your Index Number">
-    
-    <label>Full Name</label>
-    <input type="text" class="form-control" id="fullname" placeholder="Enter Your Full Name">
+      <div class="form-group">
+        <h1>SIGNUP</h1>
+      </div>
 
-    <label>Name With Initials</label>
-    <input type="text" class="form-control" id="ininame" placeholder="Enter Your Name With Initials">
+      <!-- form Div -->
+      <div class="form-group">
 
-    <label>Address</label>
-    <textarea class="form-control" id="address" rows="3"></textarea>
+        <label>Index Number</label>
+        <input type="text" formControlName="indexNumber" class="form-control" id="indexNumber"
+          placeholder="Enter Your Index Number">
 
-    <label>Dob</label>
-    <input type="date" class="form-control" id="dob" placeholder="Enter Your Date Of Birth">
-    <br/>
+        <label>Full Name</label>
+        <input type="text" formControlName="fullname" class="form-control" id="fullname"
+          placeholder="Enter Your Full Name">
 
-    <label class="btn btn-outline-dark">
-        <input type="radio" name="gender" id="male" autocomplete="off"> Male
-    </label>
-    <label class="btn btn-outline-dark">
-        <input type="radio" name="gender" id="female" autocomplete="off"> Female
-    </label>
-    <br/>
+        <label>Name With Initials</label>
+        <input type="text" formControlName="ininame" class="form-control" id="ininame"
+          placeholder="Enter Your Name With Initials">
 
-    <label>School</label>
-    <input type="text" class="form-control" id="school" placeholder="Enter Your School Name">
+        <label>Address</label>
+        <textarea class="form-control" formControlName="address" id="address" rows="3"></textarea>
 
-    <label for="exampleFormControlSelect1">Grade</label>
-    <select class="form-control" id="grade">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-      <option>6</option>
-      <option>7</option>
-      <option>8</option>
-      <option>9</option>
-      <option>10</option>
-      <option>11</option>
-      <option>12</option>
-      <option>13</option>
+        <label>Dob</label>
+        <input type="date" class="form-control" formControlName="dob" id="dob" placeholder="Enter Your Date Of Birth">
+        <br />
 
-    </select>
-    <br/>
-    <label>Parent Name</label>
-    <input type="text" class="form-control" id="parentname" placeholder="Enter Parent Name">
+        <label class="btn btn-outline-dark">
+          <input type="radio" name="gender" formControlName="gender" id="male" autocomplete="off"> Male
+        </label>
+        <label class="btn btn-outline-dark">
+          <input type="radio" name="gender" formControlName="gender" id="female" autocomplete="off"> Female
+        </label>
+        <br />
 
-    <label>Mobile Number</label>
-    <input type="text" class="form-control" id="mobile" placeholder="Enter Mobile Number">
+        <label>School</label>
+        <input type="text" class="form-control" formControlName="school" id="school"
+          placeholder="Enter Your School Name">
 
-    <label>Fixed Telephone Number</label>
-    <input type="text" class="form-control" id="fixed" placeholder="Enter Your Telephone Number">
+        <label for="exampleFormControlSelect1">Grade</label>
+        <select class="form-control" id="grade" formControlName="grade">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
 
-  </div>
-  <!-- btn div -->
-  <div> 
-      <input class="btn btn-primary" type="submit" value="Submit">
-      <input class="btn btn-danger" type="reset" value="Reset">
-  </div>
-</form>
+        </select>
+        <br />
+        <label>Parent Name</label>
+        <input type="text" class="form-control" formControlName="parentname" id="parentname"
+          placeholder="Enter Parent Name">
+
+        <label>Mobile Number</label>
+        <input type="text" class="form-control" formControlName="mobile" id="mobile" placeholder="Enter Mobile Number">
+
+        <label>Fixed Telephone Number</label>
+        <input type="text" class="form-control" formControlName="fixed" id="fixed"
+          placeholder="Enter Your Telephone Number">
+
+
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <input class="btn btn-danger" type="reset" value="Reset">
+      </div>
+     <!-- </form>  -->
+
+
+
