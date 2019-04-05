@@ -13,4 +13,10 @@ export class StudentSignupComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit(){
+    // if(this.StudentsignupService.form.get('key').value==null){
+
+    // }
+  }
+
 }

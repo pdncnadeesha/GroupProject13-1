@@ -7,6 +7,7 @@ import { AdminComponent } from './Componets/admin/admin.component';
 import { PoolmanagerComponent } from './Componets/poolmanager/poolmanager.component';
 import { StudentsComponent } from './Componets/students/students.component';
 import { CoachComponent } from './Componets/coach/coach.component';
+import { StudentSignupComponent } from './Componets/student-signup/student-signup.component';
 
 
 const routes: Routes = [
@@ -41,6 +42,10 @@ const routes: Routes = [
 {
   path: 'coach',
   component: CoachComponent
+},
+{
+  path: 'studentignup',
+  component: StudentSignupComponent
 },
 
 
