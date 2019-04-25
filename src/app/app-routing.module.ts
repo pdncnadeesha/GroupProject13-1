@@ -63,6 +63,10 @@ const routes: Routes = [
   path: 'poolmanagersignup',
   component: PoolmanagerSignupComponent
 },
+{
+  path: 'registrationmanual',
+  component: PoolmanagerComponent
+},
 
 {
   path:'dashboard',

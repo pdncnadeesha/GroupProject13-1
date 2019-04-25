@@ -27,6 +27,9 @@ import { UsersnotvalidComponent } from './usersnotvalid/usersnotvalid.component'
 import { CoachSignupComponent } from './Componets/coach-signup/coach-signup.component';
 import { PoolmanagerSignupComponent } from './Componets/poolmanager-signup/poolmanager-signup.component';
 import { EventsComponent } from './Componets/events/events.component';
+import { RegistrationComponent } from './Componets/registration/registration.component';
+import { ManualComponent } from './Componets/manual/manual.component';
+import { PasteventsComponent } from './Componets/pastevents/pastevents.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +48,9 @@ import { EventsComponent } from './Componets/events/events.component';
     CoachSignupComponent,
     PoolmanagerSignupComponent,
     EventsComponent,
+    RegistrationComponent,
+    ManualComponent,
+    PasteventsComponent,
     
   ],
   imports: [
